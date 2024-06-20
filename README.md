@@ -1,4 +1,3 @@
-# Cardsarthi
 
 git add .
 git commit -m "Manish Kumar Shah"
