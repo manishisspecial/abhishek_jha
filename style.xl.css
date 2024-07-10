@@ -1,0 +1,19 @@
+/* XL Window*/
+@media (min-width: 1280px) {
+.text_new_size_1
+{
+    font-size: 13em;
+}
+
+.section_1_style_1{
+    padding-left: 0px;
+    margin-left: 80px;
+}
+
+.section_1_style_2{
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+}
+}
+

@@ -1,405 +1,100 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.sm.css">
+    <link rel="stylesheet" href="style.md.css">
+    <link rel="stylesheet" href="style.lg.css">
+    <link rel="stylesheet" href="style.xl.css">
+    <link rel="stylesheet" href="style.2xl.css">
     <script src="https://cdn.tailwindcss.com"></script>
-    <title>Abhishek Jha - Visual Designer</title>
-    <!--Google Font Link-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
-        rel="stylesheet">
-    <!-- Google Icon Link-->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
-    <link rel="stylesheet" href="style.css" />
-    <!-- <link rel="stylesheet" href="responsive_mob.css"> -->
-    <link rel="stylesheet" href="responsive_tab.css">
-    <link rel="stylesheet" href="responsive_screen.css">
-    <!-- <link rel="stylesheet" href="responsive_main.css"> -->
-    <link rel="stylesheet" href="responsive.css">
+    <title>Portfolio</title>
 </head>
 
-<body class="" style="margin-bottom: -100px">
-    <!-- Page 1- Section-1 Start-->
-    <div class="container bg-slate-950 h-dvh page_1_container">
-        <p class="text-white py-5 text-center">
-            Design Portfolio <br />
-            @ 2024
-        </p>
-        <p class="font_main_1 text-white text-center">
-            Abhishek <span class="text-green-400">Jha</span> is a
-        </p>
-        <i class="material-icons spinner-icon place-items-center">autorenew</i>
-    </div>
-    <!-- Page 1- Section-1 End-->
-    <!-- Page 2- Section-2 Start-->
-    <div class="container bg-green-400 h-dvh page_2_container overflow-y-auto"></div>
-    <!-- Page 2- Section-2 End-->
-
-    <!-- Page 3- Section-1 Start-->
-
-    <div class="container style_main_0 max-h-max">
-        <div class="container style_main_0">
-            <ul class="flex justify-between pt-8 px-8">
-                <li>
-                    <a class="font_main_7 underline md:underline-offset-4 text-xs menu_one" href="#">ABHISHEK JHA</a>
-                </li>
-                <li>
-                    <a class="font_main_7 underline md:underline-offset-4 text-xs menu_opt" href="#">PLAYBOOK</a>
-                </li>
-                <li>
-                    <a class="font_main_7 underline md:underline-offset-4 text-xs menu_opt" href="#">SOCIALS</a>
-                </li>
-                <li>
-                    <a class="font_main_7 underline md:underline-offset-4 text-xs menu_two" href="#">CONTACT</a>
-                </li>
-            </ul>
-        </div>
-        <div class="grid grid-cols-2 gap-4 px-8 pt-5 flex justify-between">
-            <div class="font-bold font_main_2">Creative</div>
-            <div class="style_main_10 text-xs flex justify-end items-center">
-                <p class="ml-15 text-nowrap">CURRENTLY AVAILABLE FOR <br><span class="text-nowrap">FREELANCE
-                        WORLDWIDE</span></p>
-                <p class="text-nowrap">MY LOCAL TIME 23:25 <br><span class="text-nowrap"> GMT
-                        (+5:30)</span></p>
+<body>
+    <!--Navigation Bar Start -->
+    <header class="inset-x-0 top-0 z-50">
+        <nav class="hidden 2xl:block lg:block md:block lg:bg-zinc-100 md:bg-zinc-100 flex items-center justify-around p-6 lg:px-8"
+            aria-label="Global">
+            <div class="lg:flex md:flex lg:gap-x-52 xl:gap-x-72 md:gap-x-36">
+                <a href="#"
+                    class="md:text-xs font-semibold leading-6 lg:text-base text-gray-900 underline hover:underline-offset-4">ABHISHEK
+                    JHA</a>
+                <a href="#"
+                    class="md:text-xs font-semibold leading-6 lg:text-base text-gray-900 underline hover:underline-offset-4">PLAYBOOK</a>
+                <a href="#"
+                    class="md:text-xs font-semibold leading-6 lg:text-base text-gray-900 underline hover:underline-offset-4">SOCIALS</a>
+                <a href="#"
+                    class="md:text-xs font-semibold leading-6 lg:text-base text-gray-900 underline hover:underline-offset-4">CONTACT</a>
+            </div>
+        </nav>
+        <!-- Mobile menu, show/hide based on menu open state. -->
+        <div class="lg:hidden md:hidden" role="dialog" aria-modal="true">
+            <div
+                class="lg:hidden flex justify-between inset-x-0 top-0 w-full bg-black overflow-y-auto p-6 sm:mx-auto sm:ring-1 sm:ring-gray-900/10">
+                <a href="#"
+                    class="text-sm font-semibold leading-6 text-white underline hover:underline-offset-4 text-nowrap">ABHISHEK
+                    JHA</a>
+                <a href="#"
+                    class="text-sm font-semibold leading-6 text-white underline hover:underline-offset-4 text-nowrap">CONTACT</a>
             </div>
         </div>
-        <div class="grid grid-cols-2 px-16" id="style_main_1">
-            <p class="font_main_2 text-green-400">Visual</p>
-            <p class="font_main_2" style="margin-left: -35px;">Designer</p>
-        </div>
-        <div class="style_main_13">
-            <p class="text-nowrap">CURRENTLY AVAILABLE FOR <br><span class="text-nowrap">FREELANCE WORLDWIDE</span></p>
-            <p class="text-nowrap">MY LOCAL TIME 23:25 <br><span class="text-nowrap"> GMT
-                    (+5:30)</span></p>
-        </div>
+    </header>
+    <!--Navigation Bar End -->
+    <!--Section-1 Start -->
+    <div class="container section_1_style_1 hidden 2xl:block lg:block md:block">
 
-        <div class="grid grid-cols-2 style_main_14">
-            <div class="columns-1 flex flex-col justify-center px-8 font_main_6">
-                <p class="style_display_none style_main_15">About Myself</p>
-
-                <p>I AM ABHISHEK JHA, I </p>
-                <p>CREATE Unconventional </p>
-                <p>YET FUNCTIONAL & </p>
-                <p>VISUALLY PLEASING</p>
-                <p>INTERFACES FOR THE </p>
-                <p>MOBILE AND WEB.</p>
+        <div class="grid grid-cols-4 section_1_style_2">
+            <div class="xl:flex xl:items-center col-span-2 font-semibold text_new_size_1 xl:text-center">
+                <p class="">Creative</p>
             </div>
-            <div class="columns-1 flex">
-                <img src="media/images/card1.a0552dbc.png" class="img_one" alt="">
-                <img src="media/images/card2.cfc820ab.png" class="img_two" alt="">
-                <img src="media/images/card3.b705d81b.png" class="img_three" alt="">
+            <div class="xl:flex xl:items-center xl:text-sm lg:text-sm md:text-xs text_new_size_2">
+                <p class="xl:max-w-44 lg:max-w-44 md:max-w-48">CURRENTLY AVAILABLE FOR
+                    FREELANCE WORLDWIDE</p>
             </div>
-        </div>
-        <div class="style_display_none style_main_16">
-            <div class="style_chat_icon">
-                <i class="ph ph-chat"></i>
+            <div class="xl:flex xl:items-center xl:text-sm lg:text-sm md:text-xs text_new_size_2">
+                <p class="xl:max-w-32 lg:max-w-32 md:max-w-32">MY LOCAL TIME 22:16
+                    GMT (+5:30)</p>
             </div>
-            <p class="font_main_8">CONTACT</p>
-        </div>
-
-        <div class="container px-2 style_main_17">
-            <i class="ph-thin ph-arrow-down-right text-zinc-400"></i>
-        </div>
-        <div class="grid grid-cols-1 style_main_11">
-            <p class="text-gray-400 font_main_3">Things I <span>Can</span><span> Help you</span><br><span> with.</span>
-            </p>
-            <p class="font_main_4 pt-4 text-gray-1000">Web & Mobile / UI&Ux / <br>Branding / front-end <br>Development
-            </p>
-        </div>
-        <hr class="style_main_2">
-        <div class="grid grid-cols-2 style_main_9">
-            <div class="columns-2 text-nowrap flex">
-                <p class="font_main_5">Feat Wo<span class="text-green-400">r</span>ks</p>
-                <p class="style_main_3">(05)</p>
-            </div>
-            <div class="columns-1 px-48 style_main_12">
-                <i class="ph-thin ph-arrow-down-left style_main_8"></i>
-            </div>
-        </div>
-        <div class="container style_main_18">
-
-            <div class="grid pt-16">
-                <div class="columns-1 flex justify-start">
-                    <p class="style_display_none font_main_9 px-8">Feat</p>
-                </div>
-                <div class="columns-1 flex justify-end style_main_19">
-                    <p class="style_display_none font_main_9 px-8">Wo<span class="text-green-400">r</span>ks</p>
-                </div>
-            </div>
-            <div class="grid px-8">
-                <div class="columns-1">
-                    <i class="style_display_none style_main_20 ph-thin ph-arrow-down"></i>
-                </div>
-            </div>
-        </div>
-        <div class="grid grid-cols-2 px-8 style_main_21">
-            <div class="columns-1">
-                <img src="media/images/aeizei.7edf201c.png" class="img_four" alt="">
-                <p class="style_main_4">Aeizei</p>
-                <i class="style_main_5 ph ph-arrow-up-right"></i>
-            </div>
-            <div class="columns-1 style_main_22">
-                <img src="media/images/display.835f9d62.png" class="img_five" alt="">
-                <p class="style_main_6">Display</p>
-                <i class="style_main_7 ph ph-arrow-up-right"></i>
-            </div>
-        </div>
-        <div class="grid">
-            <div class="columns-1 style_main_26">
-                <img src="media/images/quaive.6fc624fe.png" class="img_six" alt="">
-                <div class="para_group_1">
-                    <p class="style_main_27">YEAR : 2021</p>
-                    <p class="style_main_28">ROLE : UI/UX AND FULL STACK DEV</p>
-                    <div class="para_group_2">
-                        <p class="style_main_29">Quaive</p>
-                        <i class="style_main_30 ph ph-arrow-up-right"></i>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container style_main_31">
-            <div class="container">
-                <img src="media/images/visavia4.631e000e.png" class="img_seven" alt="">
-                <div class="para_group_3">
-                    <p class="style_main_32">YEAR : 2021</p>
-                    <p class="style_main_33">ROLE : UI/UX</p>
-                    <div class="para_group_4">
-                        <p class="style_main_34">Vis a via</p>
-                        <i class="style_main_35 ph ph-arrow-up-right"></i>
-                    </div>
-                </div>
-            </div>
-            <div class="container style_main_40">
-                <img src="media/images/muteza.4faa619b.png" class="img_eight" alt="">
-                <div class="para_group_5">
-                    <p class="style_main_36">YEAR : 2021</p>
-                    <p class="style_main_37">ROLE : UI/UX AND FROND-END DEV</p>
-                    <div class="para_group_6">
-                        <p class="style_main_38">Muteza</p>
-                        <i class="style_main_39 ph ph-arrow-up-right"></i>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="container style_main_41">
-            <ul class="style_main_42">
-                <p class="font_main_10">ARCHIVE</p>
-                <li class="underline md:underline-offset-4">NORTH OF ZERO <span><i
-                            class="style_display_none ph ph-arrow-up-right"></i></span></li>
-                <li class="underline md:underline-offset-4">PULSE <span><i class="style_display_none ph ph-arrow-up-right"></i></span></li>
-                <li class="underline md:underline-offset-4">PHOTO FOLIO <span><i class="style_display_none ph ph-arrow-up-right"></i></span></li>
-                <li class="underline md:underline-offset-4">SPRINGFLATS STAY <span><i class="style_display_none ph ph-arrow-up-right"></i></span></li>
-                <li class="underline md:underline-offset-4">CHUU <span><i class="style_display_none ph ph-arrow-up-right"></i></span></li>
-                <li class="underline md:underline-offset-4">STREY <span><i class="style_display_none ph ph-arrow-up-right"></i></span></li>
-                <li class="underline md:underline-offset-4">ABUDEZO <span><i class="style_display_none ph ph-arrow-up-right"></i></span></li>
-                <li class="underline md:underline-offset-4">2020 PORTFOLIO <span><i class="style_display_none ph ph-arrow-up-right"></i></span></li>
-            </ul>
-        </div>
-
-        <div class="container">
-            <button class="style_main_43">See Playback</button>
-        </div>
-
-        <div class="container style_main_44">
-            <div class="flex style_main_47">
-                <div class="columns-1">
-                    <p class="style_main_45">
-                        Honors
-                    </p>
-                </div>
-                <div class="columns-1 style_main_46">
-                    <div class="container">
-                        <p>ALL OF MY PAST ACHIEVEMENTS,</p>
-                        <p>AWARDS AND RECOGNITION.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="container px-8 style_main_48">
-            <i class="ph-thin ph-arrow-down-right text-zinc-400"></i>
-        </div>
-
-        <div class="container style_main_49">
-            <div class="columns-1 style_main_59">
-                <p class="style_main_50">FEATURED</p>
-                <p class="style_main_51">Interview with Wix Editor X</p>
-                <img class="style_main_52" src="media/images/headshot.d60093a0.png" alt="">
-                <p class="style_main_53">My journey of becoming a visual designer and my views on websites as a medium
-                    of expression.</p>
-            </div>
-            <div class="columns-1">
-                <div class="container style_main_54">
-                    <div class="container style_main_55">
-                        <p class="style_main_56">FOR DISPLAY <br> 2022</p>
-                        <p class="style_main_57 style_main_57_3">Awwwards SOTD</p>
-                        <div class="container style_main_58">
-                            <i class="ph-bold ph-arrow-right"></i>
-                        </div>
-                    </div>
-                    <div class="line_1"></div>
-
-                    <div class="container style_main_55">
-                        <p class="style_main_56">INTERVIEW <br> 2021</p>
-                        <p class="style_main_57">Wix.Com</p>
-                        <div class="container style_main_58">
-                            <i class="ph-bold ph-arrow-right"></i>
-                        </div>
-                    </div>
-                    <div class="line_1"></div>
-
-                    <div class="container style_main_55">
-                        <p class="style_main_56">FOR QUAIVE <br> 2021</p>
-                        <p class="style_main_57 style_main_57_2">Orpetron SOTD</p>
-                        <div class="container style_main_58">
-                            <i class="ph-bold ph-arrow-right"></i>
-                        </div>
-                    </div>
-                    <div class="line_1"></div>
-
-                    <div class="container style_main_55">
-                        <p class="style_main_56">FOR MUTEZA <br> 2020</p>
-                        <p class="style_main_57">Awwwards</p>
-                        <div class="container style_main_58">
-                            <i class="ph-bold ph-arrow-right"></i>
-                        </div>
-                    </div>
-                    <div class="line_1"></div>
-
-                    <div class="container style_main_55">
-                        <p class="style_main_56">FEATURE <br> 2020</p>
-                        <p class="style_main_57">CSS Awwwards</p>
-                        <div class="container style_main_58">
-                            <i class="ph-bold ph-arrow-right"></i>
-                        </div>
-                    </div>
-                    <div class="line_1"></div>
-
-                    <div class="container style_main_55">
-                        <p class="style_main_56">MENTION <br> 2020</p>
-                        <p class="style_main_57">Flux</p>
-                        <div class="container style_main_58">
-                            <i class="ph-bold ph-arrow-right"></i>
-                        </div>
-                    </div>
-                    <div class="line_1"></div>
-
-                    <div class="container style_main_55">
-                        <p class="style_main_56">FEATURE <br> 2019</p>
-                        <p class="style_main_57">Codrops</p>
-                        <div class="container style_main_58">
-                            <i class="ph-bold ph-arrow-right"></i>
-                        </div>
-                    </div>
-                    <div class="line_1"></div>
-
-                    <div class="container style_main_55">
-                        <p class="style_main_56">FEATURE <br> 2019</p>
-                        <p class="style_main_57">Muzli</p>
-                        <div class="container style_main_58">
-                            <i class="ph-bold ph-arrow-right"></i>
-                        </div>
-                    </div>
-                    <div class="line_1"></div>
-
-
-
-                </div>
-            </div>
-        </div>
-
-    </div>
-    <!-- Page 3- Section-1 End-->
-    <!-- Page 4- Section-1 Start-->
-    <div class="container style_main_71">
-        <div class="container style_main_72">
-            <div class="columns-1">
-                <i class="ph-thin ph-arrow-down-right text-gray-50"></i>
-            </div>
-            <div class="flex">
-                <div class="columns-1 text-white style_main_73">
-                    <p>LET'S TALK</p>
-                    <p class="style_main_60">ABOUT THE NEXT</p>
-                    <p>BIG THING</p>
-                </div>
-            </div>
-        </div>
-        <div class="flex style_main_76">
-            <div class="columns-1">
-                <button class="style_main_74">Write a Message</button>
-            </div>
-            <div class="columns-1">
-                <button class="style_main_75">Discuss Project</button>
-            </div>
-        </div>
-        <div class="flex style_main_85">
-            <div class="columns-1">
-                <div class="style_main_82"></div>
-                <div class="style_main_77">
-                    <div class="container">
-                        <p class="font_main_6 font_main_24px">Behance</p>
-                        <p class="font_main_3">@abhishekjha</p>
-                    </div>
-                    <div class="container social_icon_1">
-                        <i class="ph-bold ph-behance-logo"></i>
-                    </div>
-                </div>
-            </div>
-            <div class="columns-1">
-                <div class="style_main_83"></div>
-                <div class="style_main_78">
-                    <div class="container">
-                        <p class="font_main_6 font_main_24px">Instagram</p>
-                        <p class="font_main_3">@design_flavorist</p>
-                    </div>
-                    <div class="container social_icon_2">
-                        <i class="ph-bold ph-instagram-logo"></i>
-                    </div>
-                </div>
-            </div>
-            <div class="columns-1">
-                <div class="style_main_84"></div>
-                <div class="style_main_79">
-                    <div class="container">
-                        <p class="font_main_6 font_main_24px">Twitter</p>
-                        <p class="font_main_3">@designflavorist</p>
-                    </div>
-                    <div class="container social_icon_3">
-                        <i class="ph-bold ph-twitter-logo"></i>
-                    </div>
-                </div>
-            </div>
-            <div class="columns-1">
-                <div class="style_main_81"></div>
-                <div class="style_main_80">
-                    <div class="container">
-                        <p class="font_main_6 font_main_24px">Dribble</p>
-                        <p class="font_main_3">@abhishekjha</p>
-                    </div>
-                    <div class="container social_icon_4">
-                        <i class="ph-bold ph-dribbble-logo"></i>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container style_main_86">
-            <p class="font_main_14px text-gray-400"><span>©2024</span> Abhishek Jha, All rights reserved • <span
-                    class="underline text-gray-300">Credits</span></p>
-            <p class="font_main_14px text-gray-300 underline">2020 Portfolio</p>
         </div>
     </div>
+    <!--Section-1 Mobile Menu Start-->
+    <div class="container lg:hidden md:hidden">
+
+        <div class="container text-white bg-black text_new_size_3 leading-none flex flex-col items-center">
+            <p>Creative</p>
+            <p>Visual</p>
+            <p>Designer</p>
+        </div>
+        <div class="container text-gray-300 font-semibold bg-black leading-none flex justify-evenly py-16">
+            <p class="text-xs max-w-40 section_1_mob_1">CURRENTLY AVAILABLE FOR
+                FREELANCE WORLDWIDE</p>
+            <p class="text-xs max-w-32 section_1_mob_2">MY LOCAL TIME 22:16
+                GMT (+5:30)</p>
+        </div>
+    </div>
+    <!--Section-1 Mobile Menu End-->
+    <!--Section-1 End -->
+
+    <!--Section-2 Start -->
+    <div class="container hidden 2xl:block lg:block md:block">
+        <i class="ph ph-arrow-bend-left-down"></i>
+        <p>Visual</p>
+        <p>Designer</p>
+    </div>
+    <!--Section-2 End -->
+
+    <!--Section-2 Start -->
+    <!--Section-2 Start -->
 
 
-    <!-- Page 4- Section-1 End-->
+
 
     <script src="script.js"></script>
-    <script src="responsive.js"></script>
 </body>
 
 </html>

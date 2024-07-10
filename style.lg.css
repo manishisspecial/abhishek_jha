@@ -1,0 +1,18 @@
+
+@media (min-width: 1024px) {
+.text_new_size_1
+{
+    font-size: 9em;
+}
+
+.section_1_style_1{
+    padding-left: 75px;
+    margin-left: -40px;
+}
+
+.section_1_style_2{
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+}
+}
