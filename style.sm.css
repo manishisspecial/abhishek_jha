@@ -20,7 +20,7 @@
         font-size: 4.5em;
     }
     .section_1_mob_1{
-        max-width: 150px;
+        max-width: 150px !important;
     }
     .section_1_mob_2{
         max-width: 100px;

@@ -4,7 +4,13 @@
 {
     font-size: 9em;
 }
+.text_new_size_4{
+    font-size: 6em;
+}
 
+.text_new_size_5{
+    font-size: 7em;
+}
 .section_1_style_1{
     padding-left: 75px;
     margin-left: -40px;
@@ -13,6 +19,21 @@
 .section_1_style_2{
     display: flex !important;
     justify-content: space-between;
+    align-items: center;
+}
+
+.section_2_style_1{
+    display: flex !important;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.left_arrow{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
 }
